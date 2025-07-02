@@ -1,8 +1,3 @@
-# My FastAPI App
+# My App
 
-This is a simple FastAPI application.
-
-To run it, use:
-```
-uvicorn main:app --reload
-```
+A simple application that prints "Hello, World!".

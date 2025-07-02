@@ -1,7 +1,8 @@
-from fastapi import FastAPI
+def main():
+    """
+    A simple main function that prints a message.
+    """
+    print("Hello, World!")
 
-app = FastAPI()
-
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
+if __name__ == "__main__":
+    main()
